@@ -1,0 +1,210 @@
+/* Categoria Seguros */
+.seguro_patrimonial .cat_seguros {
+	margin-bottom: 30px;
+}
+
+.seguro_patrimonial .cat_seguros .frase {
+	color: var(--third-color);
+	font-size: 1.25rem;
+	margin-bottom: 30px;
+}
+
+.seguro_patrimonial .cat_seguros .frase br {
+	display: none;
+}
+
+.seguro_patrimonial .cat_seguros .frase span {
+	display: block;
+	margin-top: 5px;
+	font-weight: 700;
+}
+
+.seguro_patrimonial .cat_seguros .cat_patrimoniales .col-xs-12 a {
+	background: white;
+	border: solid 2px #a6bcbc;
+	width: 100%;
+	border-radius: 10px;
+	padding: 20px;
+	display: flex;
+	justify-content: space-between;
+	align-content: center;
+	position: relative;
+	min-height: 190px;
+	margin-bottom: 30px;
+}
+
+.seguro_patrimonial .cat_seguros .cat_patrimoniales .col-xs-12 a:hover {
+	border: solid 2px var(--secondary-color);
+}
+
+.seguro_patrimonial .cat_seguros .cat_patrimoniales .col-xs-12 a:hover img {
+	filter: invert(24%) sepia(700%) saturate(700%) hue-rotate(4deg) brightness(100%) contrast(129%)
+}
+
+
+.seguro_patrimonial .cat_seguros .cat_patrimoniales .col-xs-12 a:hover h4 {
+	color: var(--secondary-color);
+}
+
+.seguro_patrimonial .cat_seguros .cat_patrimoniales .col-xs-12 h4 {
+	color: #a6bcbc;
+  position: absolute;
+  font-size: 1.5rem;
+}
+
+.seguro_patrimonial .cat_seguros .cat_patrimoniales .col-xs-12 img {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  max-width: 40%;
+}
+	
+}
+
+
+/* Auto */
+
+ul, #myUL {
+  list-style-type: none;
+}
+
+ul {
+	padding-left: 15px;
+}
+
+#myUL {
+  margin: 0;
+  padding: 0;
+}
+
+.caret {
+  cursor: pointer;
+  -webkit-user-select: none; /* Safari 3.1+ */
+  -moz-user-select: none; /* Firefox 2+ */
+  -ms-user-select: none; /* IE 10+ */
+  user-select: none;
+}
+
+.caret_first {
+	margin-bottom: 20px;
+}
+
+.caret::before {
+  content: "\25B6";
+  color: var(--secondary-color);
+  display: inline-block;
+  margin-right: 6px;
+  font-size: 1rem;
+}
+
+.caret-down::before {
+  -ms-transform: rotate(90deg); /* IE 9 */
+  -webkit-transform: rotate(90deg); /* Safari */'
+  transform: rotate(90deg);  
+}
+
+.caret-down {
+  font-weight: 700;
+}
+
+.nested {
+  display: none;
+}
+
+.nested.active {
+  display: block;
+}
+
+.nested.active .caret {
+  font-size: 1.25rem;
+  font-weight: 700;  
+}
+
+.nested.active h4 {
+  font-size: 1rem;
+  margin-top: 5px;
+  margin-bottom: 0;
+}
+
+.datos .individual {
+  font-size: 1rem!important;
+  font-weight: 300;  
+}
+/* Auto end */
+
+
+/* Categoria Seguros end */
+
+/* MEDIA QUERIS */
+
+@media (min-width: 576px) {
+
+	/* Categoria Seguros */
+	.seguro_patrimonial .cat_seguros .cat_patrimoniales .col-xs-12 a {
+		min-height: 150px;
+	}
+	/* Categoria Seguros end */
+
+}
+
+@media (min-width: 768px) {
+
+	/* Categoria Seguros */
+	.seguro_patrimonial .cat_seguros .cat_patrimoniales .col-xs-12 a {
+		min-height: 170px;
+	}
+	/* Categoria Seguros end */
+
+}
+
+@media (min-width: 992px) {
+
+	/* Categoria Seguros */
+	.seguro_patrimonial .cat_seguros .cat_patrimoniales .col-xs-12 h4 {
+		font-weight: 700;
+	}
+
+	.seguro_patrimonial .cat_seguros .frase br {
+		display: inline-block;
+	}
+
+	.seguro_patrimonial .cat_seguros .frase {
+		font-size: 1.5rem;
+	}
+	/* Categoria Seguros end */
+
+}
+
+@media (min-width: 1200px) {
+
+	/* Categoria Seguros */
+	.seguro_patrimonial .cat_seguros .cat_patrimoniales .col-xs-12 a {
+		min-height: 200px;
+	}
+
+	.seguro_patrimonial .cat_seguros .frase {
+		font-size: 1.75rem;
+	}
+	/* Categoria Seguros end */
+
+}
+
+@media (min-width: 1400px) {
+
+	/* Categoria Seguros */
+	.seguro_patrimonial .header .content_h1 h1 {
+    font-size: 4rem;
+	}
+	/* Categoria Seguros */	
+
+}
+
+@media (min-width: 1700px) {
+
+	/* Categoria Seguros */
+	.seguro_patrimonial .header .content_h1 h1 {
+    font-size: 5rem;
+	}
+	/* Categoria Seguros */	
+
+}

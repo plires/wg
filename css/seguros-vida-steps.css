@@ -1,0 +1,118 @@
+/* Style the form */
+#form_seguros {
+	border-radius: 10px;
+	border: solid #d0dddd 1px;
+	padding: 30px 20px;
+  min-height: 475px;
+}
+
+#form_seguros .content_btn {
+	overflow:auto;
+	margin-top: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#form_seguros .content_btn button:first-child {
+	margin-right: 50px;
+}
+
+#form_seguros .content_circles {
+	text-align:center;
+	margin-top:40px;
+}
+
+
+/* Style the input fields */
+input {
+  padding: 10px;
+  width: 100%;
+  font-size: 17px;
+  font-family: Raleway;
+  border: 1px solid #aaaaaa;
+}
+
+/* Mark input boxes that gets an error on validation: */
+input.invalid,
+textarea.invalid {
+  background-color: #ffdddd;
+}
+
+/* Hide all steps by default: */
+.tab {
+  display: none;
+  min-height: 240px;
+}
+
+/* Make circles that indicate the steps of the form: */
+.step {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbbbbb;
+  border: none;
+  border-radius: 50%;
+  display: inline-block;
+  opacity: 0.5;
+}
+
+/* Mark the active step: */
+.step.active {
+  opacity: 1;
+}
+
+/* Mark the steps that are finished and valid: */
+.step.finish {
+  background-color: var(--secondary-color);
+}
+
+#sending_form {
+  display: none!important;
+}
+
+#sending_form.active {
+  z-index: 999999;  
+  display: flex!important;
+  justify-content: center;
+  align-items: center;
+  min-height: 372px;
+}
+
+/* MEDIA QUERIS */
+
+@media (min-width: 576px) {
+
+  #sending_form.active {
+    min-height: 375px;
+  }
+
+}
+
+@media (min-width: 768px) {
+
+}
+
+@media (min-width: 992px) {
+
+  #form_seguros {
+    min-height: 560px;
+  }
+
+  .tab {
+    min-height: 275px;
+  }
+
+  #sending_form.active {
+    min-height: 400px;
+  }
+
+}
+
+@media (min-width: 1200px) {
+
+}
+
+@media (min-width: 1400px) {
+
+}

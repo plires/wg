@@ -1,0 +1,364 @@
+/* Header */
+.quienes_somos .header {
+	position: relative;
+	margin-bottom: 30px;
+}
+
+.quienes_somos .header h1 {
+	position: absolute;
+	top: calc(50% - 33px);
+	left: 30px;
+	color: white;
+	font-weight: 700;
+	font-size: 1.75rem;
+} 
+/* Header end */
+
+/* Frase Inicial */
+.quienes_somos .frase {
+	margin-bottom: 30px;
+}
+
+.quienes_somos .frase h2 {
+	text-align: center;
+	font-size: 1.125rem;
+	font-weight: 700;
+}
+
+.quienes_somos .frase p {
+	color: #a6bcbc;
+}
+/* Frase Inicial end */
+
+/* Valores */
+.quienes_somos .valores {
+	margin-bottom: 50px;
+}
+
+.quienes_somos .valor {
+	background-color: var(--quarter-color);
+}
+
+.quienes_somos .valor p {
+	color: white;
+	text-align: center;
+	font-size: 1.5rem;
+	position: relative;
+}
+
+.quienes_somos .valor .col-md-3 {
+	border-bottom: solid 1px white;
+	position: relative;
+	padding-top: 20px!important;
+	padding-bottom: 20px!important;
+}
+
+.quienes_somos .valor .col-md-3:last-child {
+	border-bottom: none;
+}
+
+.quienes_somos .valor .col-md-3 .flecha_mobile {
+  position: absolute;
+  left: 50px;
+  top: calc(50% - 8px);
+  width: 0; 
+  height: 0; 
+  border-left: 10px solid white;
+  border-top: 8px solid transparent;
+  border-bottom: 8px solid transparent;
+}
+
+.quienes_somos .valor p:last-child {
+	margin-bottom: 0;
+}
+/* Valores end */
+
+/* Que Nos Destaca */
+.quienes_somos .destaca {
+	margin-bottom: 30px;
+}
+
+.quienes_somos .destaca .imagen {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.quienes_somos .destaca .imagen img {
+	max-width: 30%;
+}
+
+.quienes_somos .destaca .datos {
+	margin-bottom: 50px;
+	text-align: center;
+}
+
+.quienes_somos .destaca .datos:last-child {
+	margin-bottom: 0;
+}
+
+.quienes_somos .destaca .datos h4 {
+	color: #008ddd;
+}
+
+.quienes_somos .destaca .datos p {
+	color: #a6bcbc;
+}
+/* Que Nos Destaca end */
+
+/* Banner */
+.quienes_somos .banner {
+	background: url('../img/quienes-somos/baner-mobile.jpg');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: 50% 50%;
+}
+
+.quienes_somos .banner p {
+	color: white;
+	font-size: 2rem;
+	font-weight: 900;
+	text-align: center;
+	margin: 0;
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+/* Banner end */
+
+/* MEDIA QUERIS */
+
+@media (min-width: 576px) {
+
+	/* Header */
+	.quienes_somos .header h1 {
+		left: 70px;
+		font-weight: 900;
+		font-size: 2rem;
+	} 
+	/* Header end */
+
+	/* Frase Inicial */
+	.quienes_somos .frase h2 {
+		font-size: 1.25rem;
+	}
+	/* Frase Inicial end */
+
+	/* Valores */
+	.quienes_somos .valor .col-md-3 {
+		padding-top: 40px!important;
+		padding-bottom: 40px!important;
+	}
+	/* Valores end */
+
+	/* Banner */
+	.quienes_somos .banner p {
+		padding-top: 150px;
+		padding-bottom: 150px;
+	}
+	/* Banner end */
+
+}
+
+@media (min-width: 768px) {
+
+	/* Header */
+	.quienes_somos .header {
+		margin-bottom: 60px;
+	}
+
+	.quienes_somos .header h1 {
+		top: calc(50% - 57px);
+		left: 110px;
+		font-size: 3rem;
+	}
+	/* Header end */
+
+	/* Frase Inicial */
+	.quienes_somos {
+		margin-bottom: 60px;
+	}
+
+	.quienes_somos h2 {
+		margin-bottom: 20px;
+	}
+	/* Frase Inicial end */
+
+	/* Valores */
+	.quienes_somos .valores {
+		margin-bottom: 60px;
+	}
+
+	.quienes_somos .valor .col-md-3 .flecha_mobile {
+		left: calc(50% - 8px);
+		top: 0;
+		border-top: 10px solid white;
+		border-left: 8px solid transparent;
+		border-right: 8px solid transparent;
+	}
+
+	.quienes_somos .valor .col-md-3 {
+		position: relative;
+	}
+
+	.quienes_somos .valor .col-md-3:after {
+		content: '';
+		background-color: white;
+		position: absolute;
+		right: 0;
+		top: calc(50% - 28px);
+		width: 1px;
+		height: 65px;
+	}
+
+	.quienes_somos .valor .col-md-3:last-child:after {
+		display: none;
+	}
+	/* Valores end */
+
+	/* Que Nos Destaca */
+	.quienes_somos .destaca {
+		margin-bottom: 60px;
+	}
+
+	.quienes_somos .content_destaca {
+		display: flex;
+		margin-bottom: 60px;
+	}
+
+	.quienes_somos .content_destaca h4 {
+		margin-bottom: 10px;
+	}
+
+	.quienes_somos .destaca .imagen {
+		min-width: 200px;
+	}
+
+	.quienes_somos .destaca .imagen img {
+		max-width: 60%;
+	}
+
+	.quienes_somos .destaca .datos {
+		margin-bottom: 0;
+		text-align: left;
+		padding-left: 20px;
+		border-left: 1px solid #a6bcbc;
+	}
+	/* Que Nos Destaca end */
+
+}
+
+@media (min-width: 992px) {
+
+	/* Header */
+	.quienes_somos .header h1 {
+		left: 130px;
+	}
+	/* Header end */
+
+	/* Que Nos Destaca */
+	.quienes_somos .content_destaca h4 {
+		font-weight: 700;
+	}
+	/* Que Nos Destaca end */
+
+	/* Banner */
+	.quienes_somos .banner {
+		background: url('../img/quienes-somos/baner.jpg');
+		background-repeat: no-repeat;
+		background-position: 50% 50%;
+	}
+	/* Banner end */
+
+}
+
+@media (min-width: 1200px) {
+
+	/* Header */
+	.quienes_somos .header h1 {
+		top: calc(50% - 76px);
+		font-size: 4rem;
+		left: 200px;
+	}
+	/* Header end */
+
+	/* Frase Inicial */
+	.quienes_somos .frase h2 {
+		text-align: left;
+	}
+	/* Frase Inicial end */
+
+	/* Valores */
+	.quienes_somos .valor .col-md-3 {
+		padding-top: 60px!important;
+		padding-bottom: 60px!important;
+	}
+
+	.quienes_somos .valor .col-md-3 p {
+		font-size: 1.75rem;
+	}
+	/* Valores end */
+
+	/* Que Nos Destaca */
+	.quienes_somos .destaca h3 {
+		margin-bottom: 50px;
+	}
+
+	.quienes_somos .destaca h4 {
+		font-size: 1.75rem;
+	}
+
+	.quienes_somos .destaca p {
+		font-size: 1.25rem;
+	}
+
+	.quienes_somos .destaca img {
+		max-width: 70%;
+	}
+	/* Que Nos Destaca end */
+
+}
+
+@media (min-width: 1400px) {
+
+	/* Header */
+	.quienes_somos .header h1 {
+		top: calc(50% - 96px);
+		font-size: 5rem;
+		left: 350px;
+	}
+	/* Header end */
+
+	/* Frase Inicial */
+	.quienes_somos .frase h2 {
+		font-size: 1.5rem;
+	}
+
+	.quienes_somos .frase p {
+		font-size: 1.25rem;
+	}
+	/* Frase Inicial end */
+
+	/* Valores */
+	.quienes_somos .valor .col-md-3 p {
+		font-size: 2rem;
+	}
+	/* Valores end */
+
+	/* Que Nos Destaca */
+	.quienes_somos .destaca img {
+		max-width: 100%;
+	}
+	/* Que Nos Destaca end */
+
+	/* Banner */
+	.quienes_somos .banner p {
+		font-size: 3rem;
+		font-weight: 900;
+		text-align: center;
+		margin: 0;
+		padding-top: 140px;
+		padding-bottom: 140px;
+	}
+	/* Banner end */
+
+}

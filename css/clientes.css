@@ -1,0 +1,287 @@
+.clientes {
+	margin-bottom: 30px;
+}
+
+.clientes .col-md-4 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	margin-bottom: 30px;
+}
+
+.clientes .col-md-4 img {
+	max-width: 40%;
+	margin-bottom: 10px;
+}
+
+.clientes .col-md-4 .numero {
+	color: #008ddd;
+	font-size: 2.5rem;
+	font-weight: 900;
+	margin-bottom: 15px;
+}
+
+.clientes .col-md-4 .tag {
+	color: #a6bcbc;
+	font-size: 1.5rem;
+	font-weight: 700;
+	margin-bottom: 0!important;
+	margin-top: -20px;
+	margin-bottom: 20px!important;
+}
+
+.clientes .seguros_patrimoniales,
+.clientes .seguros_agricolas,
+.clientes .seguros_vida {
+	margin-bottom: 60px;
+}
+
+.clientes .seguros_patrimoniales .col-md-4:last-child,
+.clientes .seguros_agricolas .col-md-4:last-child,
+.clientes .seguros_vida .col-md-4:last-child {
+	margin-bottom: 0;
+}
+
+.clientes .seguros_patrimoniales .col-md-4:last-child:after,
+.clientes .seguros_agricolas .col-md-4:last-child:after,
+.clientes .seguros_vida .col-md-4:last-child:after {
+	content: '';
+	width: 80%;
+	height: 2px;
+	background-color: #008ddd;
+	margin: auto;
+}
+
+/* Seguros de Vida */
+.clientes .seguros_vida h3:last-child {
+	margin-bottom: 30px;
+}
+/* Seguros de Vida end */
+
+/* Seguros Agricolas */
+.clientes .seguros_agricolas h3 {
+	margin-bottom: 10px;
+}
+
+.clientes .seguros_agricolas h3:last-child {
+	margin-bottom: 30px;
+}
+/* Seguros Agricolas end */
+
+/* Header */
+.clientes .header .content_h1 {
+  position: absolute;
+  top: calc(50% - 16px);
+  left: 30px;
+}
+
+.clientes .header .content_h1 h1::after {
+  content: '';
+  width: 40px;
+  height: 3px;
+  border-radius: 3px;
+  background-color: var(--secondary-color);
+  position: absolute;
+  bottom: 5px;
+  left: 0;
+}
+
+.clientes h2 {
+	font-size: 1.5rem;
+	margin-bottom: 15px;
+	font-weight: 700;
+}
+
+.clientes h3 {
+	color: #a6bcbc;
+	font-size: 1.125rem;
+	text-transform: uppercase;
+	text-align: left;
+	margin-bottom: 0;
+}
+
+.clientes .seguros_patrimoniales p,
+.clientes .seguros_vida p,
+.clientes .seguros_agricolas p {
+	color: #a6bcbc;
+	font-size: 0.85rem;
+	margin-bottom: 30px;
+}
+
+.clientes .seguros_patrimoniales p:last-child,
+.clientes .seguros_vida p:last-child,
+.clientes .seguros_agricolas p:last-child {
+	margin-bottom: 60px;
+}
+/* Header end */
+
+/* Testimonios */
+.testimonios .container-fluid {
+	min-height: 380px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.testimonios .bg {
+	background-color: var(--secondary-color);
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.testimonios .bg p {
+	color: black;
+	position: relative;
+	padding-bottom: 15px;
+	margin-bottom: 10px;
+}
+
+.testimonios .bg p:after {
+	content: '';
+	position: absolute;
+	width: 150px;
+	height: 2px;
+	border-radius: 2px;
+	left: calc(50% - 75px);
+	bottom: 0;
+	background-color: white;
+}
+
+.testimonios .bg h5 {
+	color: white;
+}
+
+.carousel-control-prev {
+	left: -15px;
+}
+
+.carousel-control-next {
+	right: -15px;
+}
+/* Testimonios end */
+
+/* MEDIA QUERIS */
+
+@media (min-width: 576px) {
+
+	/* Testimonios */
+	.testimonios .container-fluid {
+		min-height: 290px;
+	}
+	/* Testimonios end */
+
+	.clientes .col-md-4 img {
+		max-width: 30%;
+	}
+
+}
+
+@media (min-width: 768px) {
+
+	.clientes .seguros_patrimoniales p,
+	.clientes .seguros_vida p,
+	.clientes .seguros_agricolas p {
+		font-size: 1rem;
+	}
+
+	.clientes .col-md-4 img {
+		max-width: 60%;
+	}
+
+	.clientes .seguros_patrimoniales .col-md-4:last-child:after,
+	.clientes .seguros_agricolas .col-md-4:last-child:after,
+	.clientes .seguros_vida .col-md-4:last-child:after {
+		height: 0;
+		background-color: transparent;
+	}
+
+	.clientes .seguros_patrimoniales .line:after,
+	.clientes .seguros_agricolas .line:after,
+	.clientes .seguros_vida .line:after {
+		content: '';
+		width: 100%;
+		height: 2px;
+		background-color: #008ddd;
+		margin: auto;
+	}
+
+	/* Testimonios */
+	.testimonios .container-fluid {
+		min-height: 340px;
+	}
+	/* Testimonios end */
+
+}
+
+@media (min-width: 992px) {
+
+}
+
+@media (min-width: 1200px) {
+
+	.clientes h2 {
+		font-size: 1.5rem;
+	}
+
+	.clientes h3 {
+		font-size: 1.25rem;
+	}
+
+	.clientes .seguros_patrimoniales p,
+	.clientes .seguros_vida p,
+	.clientes .seguros_agricolas p {
+		font-size: 1.125rem;
+	}
+
+	.clientes .col-md-4 img {
+		max-width: 43%;
+	}
+
+	.clientes .col-md-4 .numero {
+    font-size: 3.5rem;
+	}
+
+	.clientes .col-md-4 .tag {
+    font-size: 2rem;
+    margin-top: -35px;
+	}
+
+	/* Testimonios */
+	.testimonios .container-fluid {
+		min-height: 390px;
+	}
+
+	.testimonios .bg {
+    padding-top: 60px;
+    padding-bottom: 60px;
+	}
+
+	.testimonios .bg p {
+		font-size: 1.25rem!important;
+	}
+	/* Testimonios end */
+
+}
+
+@media (min-width: 1400px) {
+
+	.clientes h2 {
+		font-size: 1.75rem;
+	}
+
+	.clientes h3 {
+		font-size: 1.5rem;
+	}
+
+	.clientes .seguros_patrimoniales p,
+	.clientes .seguros_vida p,
+	.clientes .seguros_agricolas p {
+		font-size: 1.25rem;
+	}
+
+	.clientes .col-md-4 img {
+		max-width: 50%;
+	}
+
+}

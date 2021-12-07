@@ -1,0 +1,102 @@
+footer {
+	margin-top: 60px;
+	background-color: var(--primary-color);
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+footer p,
+footer a,
+footer i {
+	color: var(--quarter-color);
+}
+
+footer p,
+footer a {
+	font-size: 0.75rem;
+}
+
+footer a:hover,
+footer a:hover i {
+	color: white;
+}
+
+footer .logo_footer {
+	margin: auto;
+	margin-bottom: 15px;
+	text-align: center;
+}
+
+footer .superior .col-md-12 {
+	text-align: center;
+}
+
+footer .redes {
+	margin-bottom: 40px;
+}
+
+footer .redes a {
+	margin-right: 20px;
+	font-size: 1.5rem;
+}
+
+footer .redes a,
+footer .redes i {
+	color: white;
+}
+
+footer .redes a:hover,
+footer .redes i:hover {
+	color: var(--secondary-color);
+}
+
+footer .datos {
+	margin-bottom: 20px;
+}
+
+footer .ossn {
+	margin-bottom: 40px;
+}
+
+footer .datos i {
+	margin-right: 10px;
+}
+
+footer .datos a {
+	display: inline-block;
+	margin-bottom: 10px;
+}
+
+footer .menu li {
+	margin-bottom: 10px;
+}
+
+
+/* MEDIA QUERIS */
+
+@media (min-width: 576px) {
+
+}
+
+@media (min-width: 768px) {
+
+	footer .superior .col-md-12 {
+		text-align: left;
+	}
+
+}
+
+@media (min-width: 992px) {
+
+}
+
+@media (min-width: 1200px) {
+
+}
+
+@media (min-width: 1400px) {
+
+}
+
+
+

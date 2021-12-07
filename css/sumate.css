@@ -1,0 +1,168 @@
+/* Formulario */
+.sumate h2 {
+	color: var(--third-color);
+	font-weight: 700;
+	font-size: 1.75rem!important;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.sumate form {
+	border-radius: 10px;
+	border: solid #d0dddd 1px;
+	padding: 30px 20px;
+}
+
+.sumate label {
+	color: #d0dddd;
+}
+
+.sumate .content_btn {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.sumate .formulario .col-md-6:first-child {
+	margin-bottom: 30px;
+}
+
+.sumate .formulario .imagen_equipo {
+	margin-bottom: 30px;
+}
+
+.sumate .formulario #sending_form {
+	height: auto;
+	min-height: auto;
+}
+/* Formulario end */
+
+/* Caracteristicas */
+.sumate .caracteristicas {
+	margin-bottom: 30px;
+}
+
+.sumate .caracteristicas .content {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	margin-bottom: 15px;
+}
+
+.sumate .caracteristicas .content img {
+	margin-right: 15px;
+}
+
+.sumate .caracteristicas .content h3 {
+	margin-bottom: 0;
+	color: #a1b7b7;
+	font-size: 1rem;
+	text-align: left;
+	font-weight: 700;
+}
+
+.sumate .caracteristicas .content p {
+	margin-bottom: 0;
+	color: var(--third-color);
+}
+/* Caracteristicas end */
+
+
+/* MEDIA QUERIS */
+
+@media (min-width: 576px) {
+
+}
+
+@media (min-width: 768px) {
+
+	/* Formulario */
+	.sumate h2 {
+		font-size: 2rem!important;
+		text-align: left;
+	}
+
+	.sumate .formulario {
+		margin-bottom: 30px;
+	}
+
+	.sumate .formulario .col-md-6 {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+	}
+
+	.sumate .formulario form {
+		width: 100%;
+	}
+	/* Formulario end */
+
+	/* Caracteristicas */
+	.sumate .caracteristicas {
+		margin-bottom: 60px;
+	}
+
+	.sumate .caracteristicas h3 {
+		font-size: 1.75rem;
+		margin-bottom: 30px;
+	}
+	/* Caracteristicas end */
+
+}
+
+@media (min-width: 992px) {
+
+	/* Header */
+	.sumate .header {
+		margin-bottom: 60px;
+	}
+	/* Header end */
+
+	/* Caracteristicas */
+	.sumate .caracteristicas .content h3 {
+		font-size: 1.25rem;
+	}
+	/* Caracteristicas end */
+
+}
+
+@media (min-width: 1200px) {
+
+	/* Formulario */
+	.sumate .formulario {
+		margin-bottom: 60px;
+	}
+	/* Formulario end */
+
+	/* Caracteristicas */
+	.sumate .caracteristicas {
+		margin-bottom: 60px;
+	}
+
+	.sumate .caracteristicas .content h3 {
+		font-size: 1.5rem;
+	}
+
+	.sumate .caracteristicas .content p {
+		font-size: 1.125rem;
+	}
+	/* Caracteristicas end */
+
+}
+
+@media (min-width: 1400px) {
+
+	/* Formulario */
+	.sumate .formulario h2 {
+		font-size: 2.5rem!important;
+	}
+	/* Formulario end */
+
+	/* Caracteristicas */
+	.sumate .caracteristicas h3 {
+		font-size: 2rem;
+	}
+	/* Caracteristicas end */
+
+}

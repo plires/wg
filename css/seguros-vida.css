@@ -1,0 +1,291 @@
+/* Header */
+.seguro_vida .header {
+	position: relative;
+	margin-bottom: 30px;
+}
+
+.seguro_vida .header .content_h1 {
+	position: absolute;
+	top: calc(50% - 53px);
+	left: 30px;
+}
+
+.seguro_vida .header .content_h1 h1 {
+	font-size: 1.75rem;
+	color: white;
+}
+
+.seguro_vida .header .content_h1 p {
+	color: var(--third-color);
+	font-size: 0.85rem;
+	line-height: 1.2;
+	margin-bottom: 0;
+}
+/* Header end */
+
+/* Formulario */
+.seguro_vida .formulario .datos {
+	order: 1;
+	margin-bottom: 30px;
+}
+
+.seguro_vida .formulario .datos p {
+	color: #a6bcbc;
+}
+
+.seguro_vida .formulario .datos li {
+	padding-top: 3px;
+	padding-bottom: 3px;
+	font-size: 1.25rem;
+	color: var(--third-color);
+}
+
+.seguro_vida .formulario .form {
+	margin-bottom: 30px;
+}
+
+.seguro_vida .formulario .form h4 {
+	text-align: center;
+	color: var(--third-color);
+	margin-bottom: 15px;
+}
+
+.seguro_vida .formulario .form label {
+	color: #a6bcbc;
+	font-size: 0.85rem;
+}
+
+.seguro_vida .formulario .form input::placeholder {
+	color: #a6bcbc;
+	font-size: 0.75rem;
+}
+/* Formulario end */
+
+/* Preguntas Frecuentes */
+.seguro_vida .preguntas {
+	margin-bottom: 30px;
+}
+
+.seguro_vida .accordion-item {
+	border: none;
+	border-bottom: solid 1px var(--secondary-color);
+}
+
+.seguro_vida .accordion-button {
+	color: var(--third-color);
+}
+
+.seguro_vida .accordion-button:focus {
+	box-shadow: none;
+}
+
+.seguro_vida .accordion-button:not(.collapsed) {
+	background-color: transparent;
+}
+
+.seguro_vida .accordion-body {
+	color: #a6bcbc;
+	font-size: 0.85rem;
+}
+/* Preguntas Frecuentes end */
+
+/* MEDIA QUERIS */
+
+@media (min-width: 576px) {
+
+	/* Header */
+	.seguro_vida .header .content_h1 {
+		position: absolute;
+		top: calc(50% - 66px);
+		left: 70px;
+	}
+
+	.seguro_vida .header .content_h1 h1 {
+		font-weight: 900;
+		font-size: 2rem;
+	}
+
+	.seguro_vida .header .content_h1 p {
+		font-size: 1rem;
+		line-height: 1.3;
+		position: relative;
+	}
+
+	.seguro_vida .header .content_h1 p:after {
+		content: '';
+		width: 40px;
+		height: 3px;
+		border-radius: 3px;
+		background-color: var(--secondary-color);
+		position: absolute;
+		bottom: -15px;
+		left: 0;
+	}
+	/* Header end */
+
+	/* Formulario */
+	.seguro_vida .formulario .form label {
+		font-size: 1rem;
+	}
+
+	.seguro_vida .formulario .form input::placeholder {
+		font-size: 0.85rem;
+	}
+	/* Formulario end */
+
+	/* Preguntas Frecuentes */
+	.seguro_vida .accordion-button {
+		font-size: 1rem;
+	}
+
+	.seguro_vida .accordion-body {
+		color: #a6bcbc;
+		font-size: 1rem;
+	}
+	/* Preguntas Frecuentes end */
+
+}
+
+@media (min-width: 768px) {
+
+	/* Header */
+	.seguro_vida .header {
+		margin-bottom: 60px;
+	}
+
+	.seguro_vida .header .content_h1 {
+		top: calc(50% - 85px);
+		left: 110px;
+	}
+
+	.seguro_vida .header .content_h1 h1 {
+		font-size: 3rem;
+	}
+
+	.seguro_vida .header .content_h1 p {
+		font-size: 1rem;
+		line-height: 1.5;
+	}
+	/* Header end */
+
+	/* Formulario */
+	.seguro_vida .formulario {
+		margin-bottom: 60px;
+	}
+
+	.seguro_vida .formulario .datos {
+		padding-top: 30px;
+		order: 0;
+		margin-bottom: 0;
+		display: flex;
+		justify-content: space-around;
+		align-items: flex-start;
+		flex-direction: column;
+	}
+
+	.seguro_vida .formulario .form {
+		margin-bottom: 0;
+	}
+	/* Formulario end */
+
+}
+
+@media (min-width: 992px) {
+
+	/* Header */
+	.seguro_vida .header .content_h1 {
+		top: calc(50% - 92px);
+		left: 130px;
+	}
+
+	.seguro_vida .header .content_h1 p {
+		font-size: 1.5rem;
+		line-height: 1.3;
+		font-weight: 700;
+	}
+	/* Header end */
+
+	/* Formulario */
+	.seguro_vida .formulario .form h4 {
+		font-weight: 700;
+		margin-bottom: 30px;
+	}
+
+	.seguro_vida .formulario .form .mb-3 {
+		margin-bottom: 2rem!important;
+	}
+
+	.seguro_vida .formulario .form .btn-primary {
+		margin-top: 2rem;
+	}
+
+	.seguro_vida .formulario .form label {
+		font-size: 1rem;
+	}
+	/* Formulario end */
+
+}
+
+@media (min-width: 1200px) {
+
+	/* Header */
+	.seguro_vida .header .content_h1 {
+		top: calc(50% - 117px);
+		left: 200px;
+	}
+
+	.seguro_vida .header .content_h1 h1 {
+		font-size: 4rem;
+	}
+
+	.seguro_vida .header .content_h1 p {
+		font-size: 1.75rem;
+	}
+	/* Header end */
+
+	/* Preguntas Frecuentes */
+	.seguro_vida .accordion-button {
+		font-size: 1.25rem;
+		font-weight: 700;
+	}
+
+	.seguro_vida .accordion-body {
+		font-size: 1.25rem;
+		padding-bottom: 30px;
+	}
+
+	.seguro_vida .accordion-item {
+		margin-bottom: 30px;
+	}
+	/* Preguntas Frecuentes end */
+
+}
+
+@media (min-width: 1400px) {
+
+	/* Header */
+	.seguro_vida .header .content_h1 {
+		top: calc(50% - 136px);
+		left: 350px;
+	}
+
+	.seguro_vida .header .content_h1 h1 {
+		font-size: 5rem;
+	}
+
+	.seguro_vida .header .content_h1 p {
+		/*font-size: 1.75rem;*/
+	}
+	/* Header end */
+
+	/* Formulario */
+	.seguro_vida .formulario .datos p {
+		font-size: 1.5rem;
+	}
+
+	.seguro_vida .formulario .datos li {
+		font-size: 1.75rem;
+	}
+	/* Formulario end */
+
+}
