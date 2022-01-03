@@ -63,6 +63,18 @@
 			</div>
 
 			<div class="row">
+				<div class="com-md-12">
+					<?php include_once("./includes/msg-exito.php"); ?>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="com-md-12">
+					<?php include_once("./includes/errors.php"); ?>
+				</div>
+			</div>
+
+			<div class="row">
 				<div data-aos="fade-up" class="col-12 col-md-6 col-lg-3 plan">
 
 					<div class="plan_numero">
