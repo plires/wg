@@ -301,9 +301,9 @@
         }
       .button-td-primary:hover,
       .button-a-primary:hover {
-          background: #30feff !important;
-            border-color: #6044ff !important;
-          color: #6044ff !important;
+          background: #d2e0eb !important;
+            border-color: #0f649d !important;
+          color: #0f649d !important;
       }
 
         .button-td-secondary:hover,
@@ -414,8 +414,6 @@
         </div>
         <!-- Vista previa Hack de espaciado de texto : END -->
 
-
-
         <!-- Cuerpo del Email : BEGIN -->
         <table align="center" role="presentation" cellspacing="0" cellpadding="0" border="0" width="600" style="margin: auto; background-color: #ffffff;" class="email-container">
 
@@ -423,14 +421,14 @@
           <tr>
               <td style="vertical-align: middle;">
                   
-                  <img src="https://ontargetonline.com.ar/img/email/header-contacto.jpg" style="margin:0; padding:0; border:none; display:block; width: 100%; height: auto;" border="0" alt="header" />
+                  <img src="https://librecomunicacion.net/clientes/sitio/img/email/header2.jpg" style="margin:0; padding:0; border:none; display:block; width: 100%; height: auto;" border="0" alt="header" />
 
               </td>
           </tr>
           <!-- Header end-->
 
           <!-- Texto-->
-          <tr style="background-color: #6044ff;">
+          <tr style="background-color: #0f649d;">
               <td style="padding: 10px; vertical-align: middle;">
                   
                   <h1 class="fallback-font" style="margin: 0px!important; font-family: 'Montserrat', sans-serif; font-size: 28px; color: #FFFFFF; text-align: center; font-weight: 700;">
@@ -480,8 +478,8 @@
           <!-- Texto end-->
 
           <!-- Boton : BEGIN -->
-          <tr style="background-color: #6044ff;">
-              <td style="background-color: #6044ff; text-align: center; padding: 40px;">
+          <tr style="background-color: #0f649d;">
+              <td style="background-color: #0f649d; text-align: center; padding: 40px;">
 
                 <p class="fallback-font" style="margin: 0 0 10px; margin-bottom: 20px; font-family: 'Montserrat', sans-serif; font-size: 16px; line-height: 26px; color: #FFFFFF; text-align: center; font-weight: 400;">
                   <strong>Seguí navegando en nuestro sitio</strong>
@@ -490,7 +488,7 @@
                   <table align="center" role="presentation" cellspacing="0" cellpadding="0" border="0" style="margin: auto;">
                       <tr>
                           <td class="button-td button-td-primary" style="border-radius: 4px; background: #FFFFFF;">
-                              <a class="fallback-font button-a button-a-primary" target="_blank" rel="noopener" href="{base}" style="background: #FFFFFF; border: 1px solid #FFFFFF; font-family: 'Montserrat', sans-serif; font-size: 18px; line-height: 28px; font-weight: 700; text-decoration: none; padding: 10px 20px; color: #6044ff; display: block; border-radius: 4px;">INGRES&Aacute;
+                              <a class="fallback-font button-a button-a-primary" target="_blank" rel="noopener" href="{base}" style="background: #FFFFFF; border: 1px solid #FFFFFF; font-family: 'Montserrat', sans-serif; font-size: 18px; line-height: 28px; font-weight: 700; text-decoration: none; padding: 10px 20px; color: #0f649d; display: block; border-radius: 4px;">INGRES&Aacute;
                               </a>
                           </td>
                       </tr>
@@ -505,15 +503,15 @@
               <td align="center"  style="background-color: #FFFFFF;padding: 10px;">
                 
                 <a target="_blank" rel="noopener noreferrer" href="{facebook}">
-                  <img src="https://ontargetonline.com.ar/img/email/facebook.png" style="margin:0; margin-right: 20px; padding:0; border:none; display:inline-block; width: 32px; height: auto;" border="0" alt="facebook" />
+                  <img src="https://librecomunicacion.net/clientes/sitio/img/email/facebook.png" style="margin:0; margin-right: 20px; padding:0; border:none; display:inline-block; width: 45px; height: auto;" border="0" alt="facebook" />
                 </a>
 
                 <a target="_blank" rel="noopener noreferrer" href="{instagram}">
-                  <img src="https://ontargetonline.com.ar/img/email/instagram.png" style="margin:0; margin-right: 20px; padding:0; border:none; display:inline-block; width: 32px; height: auto;" border="0" alt="instagram" />
+                  <img src="https://librecomunicacion.net/clientes/sitio/img/email/instagram.png" style="margin:0; margin-right: 20px; padding:0; border:none; display:inline-block; width: 45px; height: auto;" border="0" alt="instagram" />
                 </a>
 
                 <a target="_blank" rel="noopener noreferrer" href="{linkedin}">
-                  <img src="https://ontargetonline.com.ar/img/email/linkedin.png" style="margin:0; padding:0; border:none; display:inline-block; width: 32px; height: auto;" border="0" alt="linkedin" />
+                  <img src="https://librecomunicacion.net/clientes/sitio/img/email/linkedin.png" style="margin:0; padding:0; border:none; display:inline-block; width: 45px; height: auto;" border="0" alt="linkedin" />
                 </a>
                   
               </td>
