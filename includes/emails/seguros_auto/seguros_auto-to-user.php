@@ -301,7 +301,7 @@
         }
       .button-td-primary:hover,
       .button-a-primary:hover {
-          background: #cdd7d6 !important;
+          background: #eef2f1 !important;
             border-color: #acbbbb !important;
           color: #acbbbb !important;
       }
