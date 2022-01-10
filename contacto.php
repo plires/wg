@@ -56,15 +56,22 @@
 				</div>
 
 				<div class="col-md-6 mapa_datos">
-					
-					<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13136.017164470482!2d-58.39377700000001!3d-34.604053!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccac1d03d9b37%3A0x1d0259c82a0050c3!2s4%20Piso%2C%20Riobamba%20429%2C%20C1006ACC%20CABA%2C%20Argentina!5e0!3m2!1ses-419!2sus!4v1638288430563!5m2!1ses-419!2sus" width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.9040289749646!2d-58.38873874005045!3d-34.60658824066427!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccac47f0ead8b%3A0x889ce834dcea4fbc!2sTte.%20Gral.%20Juan%20Domingo%20Per%C3%B3n%201558%2C%20C1042%20CABA!5e0!3m2!1ses-419!2sar!4v1641822864259!5m2!1ses-419!2sar" width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
 
 					<div class="datos">
 						<a 
 							class="transition direccion" 
 							target="_blank" 
 							rel="noopener noreferrer" 
-							href="https://goo.gl/maps/LaFzGVVVFj1VAMiT7">Riobamba 429 4 Piso, CABA
+							href="https://goo.gl/maps/BB25oyFv2sQdyZys8">Teniente Gral Perón 1558 piso 7 (CABA)
+						</a>
+
+						<a 
+							class="transition direccion" 
+							target="_blank" 
+							rel="noopener noreferrer" 
+							href="https://goo.gl/maps/fdpvMJG6XRoqjcz88">Teniente Uriburu 288, Trenque Lauquen.
 						</a>
 
 						<a 

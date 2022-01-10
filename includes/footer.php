@@ -26,7 +26,8 @@
       <div class="row inferior">
 
         <div class="col-md-4 datos">
-          <p>Riobamba 429 4 Piso, CABA.</p>
+          <p>Teniente Gral Perón 1558 piso 7 (CABA).</p>
+          <p>Teniente Uriburu 288, Trenque Lauquen.</p>
           <a class="transition" href="tel:2392544127"><i class="transition fas fa-phone"></i></i>2392.54.4127</a><br>        
           <a class="transition" href="tel:1155163751"><i class="transition fab fa-whatsapp"></i>11.5516.3751</a><br>
           <a class="transition" href="mailto:info@wgsa.com.ar"><i class="far fa-envelope"></i>info@wgsa.com.ar</a>
