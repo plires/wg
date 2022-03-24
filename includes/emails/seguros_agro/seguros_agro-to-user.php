@@ -423,7 +423,7 @@
           <tr>
               <td style="vertical-align: middle;">
                   
-                  <img src="https://librecomunicacion.net/clientes/sitio/img/email/header3.jpg" style="margin:0; padding:0; border:none; display:block; width: 100%; height: auto;" border="0" alt="header" />
+                  <img src="https://wgsa.com.ar/img/email/header3.jpg" style="margin:0; padding:0; border:none; display:block; width: 100%; height: auto;" border="0" alt="header" />
 
               </td>
           </tr>
@@ -529,15 +529,15 @@
               <td align="center"  style="background-color: #FFFFFF;padding: 10px;">
                 
                 <a target="_blank" rel="noopener noreferrer" href="{facebook}">
-                  <img src="https://librecomunicacion.net/clientes/sitio/img/email/facebook.png" style="margin:0; margin-right: 20px; padding:0; border:none; display:inline-block; width: 45px; height: auto;" border="0" alt="facebook" />
+                  <img src="https://wgsa.com.ar/img/email/facebook.png" style="margin:0; margin-right: 20px; padding:0; border:none; display:inline-block; width: 45px; height: auto;" border="0" alt="facebook" />
                 </a>
 
                 <a target="_blank" rel="noopener noreferrer" href="{instagram}">
-                  <img src="https://librecomunicacion.net/clientes/sitio/img/email/instagram.png" style="margin:0; margin-right: 20px; padding:0; border:none; display:inline-block; width: 45px; height: auto;" border="0" alt="instagram" />
+                  <img src="https://wgsa.com.ar/img/email/instagram.png" style="margin:0; margin-right: 20px; padding:0; border:none; display:inline-block; width: 45px; height: auto;" border="0" alt="instagram" />
                 </a>
 
                 <a target="_blank" rel="noopener noreferrer" href="{linkedin}">
-                  <img src="https://librecomunicacion.net/clientes/sitio/img/email/linkedin.png" style="margin:0; padding:0; border:none; display:inline-block; width: 45px; height: auto;" border="0" alt="linkedin" />
+                  <img src="https://wgsa.com.ar/img/email/linkedin.png" style="margin:0; padding:0; border:none; display:inline-block; width: 45px; height: auto;" border="0" alt="linkedin" />
                 </a>
                   
               </td>
